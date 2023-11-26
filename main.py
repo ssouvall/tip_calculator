@@ -12,7 +12,7 @@ def build_total_string(raw_amt):
 
 print('Welcome to the tip calculator')
 billAmt = input('What was the total bill?')
-tipPercent = input('What percentage tip would you like to give? 10, 12, or 15?')
+tipPercent = input('What percentage tip would you like to give?')
 numPeople = input('How many people to split the bill?')
 totalPerPerson = calc_total(billAmt, tipPercent, numPeople)
 print(f'Each person should pay {build_total_string(totalPerPerson)}')
